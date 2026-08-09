@@ -1,0 +1,41 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#07111F"/>
+      <stop offset="0.52" stop-color="#0B1327"/>
+      <stop offset="1" stop-color="#111827"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="120" y1="40" x2="1060" y2="320" gradientUnits="userSpaceOnUse">
+      <stop stop-color="#22D3EE"/>
+      <stop offset="0.48" stop-color="#8B5CF6"/>
+      <stop offset="1" stop-color="#F43F5E"/>
+    </linearGradient>
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="18" result="blur"/>
+    </filter>
+  </defs>
+  <rect width="1200" height="360" rx="28" fill="url(#bg)"/>
+  <circle cx="1010" cy="75" r="120" fill="#22D3EE" fill-opacity="0.08" filter="url(#glow)"/>
+  <circle cx="1080" cy="285" r="150" fill="#8B5CF6" fill-opacity="0.10" filter="url(#glow)"/>
+  <circle cx="165" cy="300" r="150" fill="#F43F5E" fill-opacity="0.06" filter="url(#glow)"/>
+
+  <rect x="54" y="48" width="1092" height="264" rx="22" fill="#0B1220" fill-opacity="0.72" stroke="#22304A"/>
+  <circle cx="82" cy="73" r="6" fill="#FB7185"/>
+  <circle cx="102" cy="73" r="6" fill="#FBBF24"/>
+  <circle cx="122" cy="73" r="6" fill="#34D399"/>
+  <text x="148" y="79" fill="#94A3B8" font-family="monospace" font-size="15">fred@github:~/profile</text>
+
+  <text x="82" y="132" fill="#F8FAFC" font-family="Arial, Helvetica, sans-serif" font-size="46" font-weight="700">FRED ALLI</text>
+  <rect x="82" y="150" width="315" height="5" rx="2.5" fill="url(#accent)"/>
+  <text x="82" y="191" fill="#CBD5E1" font-family="Arial, Helvetica, sans-serif" font-size="23">Data Scientist  •  AI Engineer  •  Data Engineer</text>
+  <text x="82" y="230" fill="#7DD3FC" font-family="monospace" font-size="16">python  sql  splunk  databricks  snowflake  dbt  pyspark</text>
+  <text x="82" y="260" fill="#C4B5FD" font-family="monospace" font-size="16">rag  llms  ml  nlp  aws  azure  powerbi  docker</text>
+  <text x="82" y="290" fill="#64748B" font-family="monospace" font-size="14">BUILDING DATA + AI SYSTEMS THAT WORK IN PRODUCTION // 2026</text>
+
+  <g opacity="0.85">
+    <rect x="870" y="120" width="216" height="118" rx="16" fill="#0F172A" stroke="#334155"/>
+    <text x="894" y="151" fill="#94A3B8" font-family="monospace" font-size="13">SYSTEM.STATUS</text>
+    <text x="894" y="181" fill="#34D399" font-family="monospace" font-size="17">● SHIPPING</text>
+    <text x="894" y="208" fill="#E2E8F0" font-family="monospace" font-size="13">AI • DATA • RISK</text>
+  </g>
+</svg>
