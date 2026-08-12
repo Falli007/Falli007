@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Fred Alli - Data Scientist, AI Engineer and Data Engineer" />
+<img src="./assets/profile-hero.svg" width="100%" alt="Data Science, AI Engineering and Data Engineering portfolio" />
 
 <br/>
 
@@ -8,6 +8,8 @@
 [![LinkedIn](https://img.shields.io/badge/LINKEDIN-CONNECT-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/fredrick-a-ab81922)
 [![GitHub](https://img.shields.io/badge/GITHUB-Falli007-181717?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Falli007)
 ![Profile Views](https://komarev.com/ghpvc/?username=Falli007&style=for-the-badge&label=PROFILE+VIEWS)
+
+**Data Science · AI Engineering · Data Engineering · Risk Analytics**
 
 </div>
 
@@ -34,7 +36,27 @@ I work across the full data lifecycle, from raw event and platform data through 
 
 ---
 
-## `02 // 2026 FOCUS`
+## `02 // PORTFOLIO MAP`
+
+<table>
+<tr>
+<td align="center" width="25%"><b>🤖 AI Engineering</b><br/>RAG · LLMs · Evaluation</td>
+<td align="center" width="25%"><b>🏗️ Data Engineering</b><br/>Snowflake · dbt · Databricks</td>
+<td align="center" width="25%"><b>🛡️ Risk Analytics</b><br/>Splunk · Detection · Investigation</td>
+<td align="center" width="25%"><b>📊 Data Science</b><br/>ML · NLP · Forecasting</td>
+</tr>
+</table>
+
+### Featured current build
+
+> 🏦 **[Customer Sales Analytics Engineering](https://github.com/Falli007/customer_sales_data_engnr)**  
+> End-to-end Snowflake + dbt warehouse with staging, intermediate transformations, facts, dimensions, business marts, tests, Jinja/macros and full A–Z documentation.
+>
+> `Snowflake` `dbt` `SQL` `Jinja` `Dimensional Modelling` `Data Quality`
+
+---
+
+## `03 // 2026 FOCUS`
 
 <table>
 <tr>
@@ -69,7 +91,7 @@ Machine learning, NLP, time series, experimentation, model evaluation and decisi
 
 ---
 
-## `03 // CORE STACK`
+## `04 // CORE STACK`
 
 <div align="center">
 
@@ -113,10 +135,18 @@ Machine learning, NLP, time series, experimentation, model evaluation and decisi
 
 ---
 
-## `04 // SELECTED BUILDS`
+## `05 // SELECTED BUILDS`
 
 <table>
 <tr>
+<td width="50%" valign="top">
+
+### 🏦 [Customer Sales Analytics Engineering](https://github.com/Falli007/customer_sales_data_engnr)
+Snowflake + dbt analytics warehouse with layered modelling, testing and documentation.
+
+`Snowflake` `dbt` `SQL` `Jinja`
+
+</td>
 <td width="50%" valign="top">
 
 ### 🧠 [GenAI PDF RAG Chatbot](https://github.com/Falli007/genai-pdf-rag-chatbot)
@@ -125,6 +155,8 @@ Production-minded retrieval augmented generation application.
 `Python` `RAG` `LLMs` `Retrieval`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🧪 [Evaluation Harness](https://github.com/Falli007/eval-harness)
@@ -133,8 +165,6 @@ Framework for testing and measuring AI system behaviour and quality.
 `Python` `Evaluation` `AI Quality`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 📏 [RAG Model Evaluation](https://github.com/Falli007/RAGModel-Evaluation)
@@ -143,6 +173,8 @@ Evaluation workflows for retrieval and generation performance.
 `RAG` `LLM Evaluation` `Metrics`
 
 </td>
+</tr>
+<tr>
 <td width="50%" valign="top">
 
 ### 🛡️ [Risk Advanced Modelling](https://github.com/Falli007/Risk-Advanced-Modelling)
@@ -151,8 +183,6 @@ Applied modelling and analytical workflows for risk-focused problems.
 `Python` `Machine Learning` `Risk`
 
 </td>
-</tr>
-<tr>
 <td width="50%" valign="top">
 
 ### 🏗️ [Fred Data Platform](https://github.com/Falli007/fred-data-platform)
@@ -161,20 +191,12 @@ Modern data-platform engineering and architecture project.
 `Data Engineering` `Cloud` `Pipelines`
 
 </td>
-<td width="50%" valign="top">
-
-### 🔌 [Insurance Data Engineering API](https://github.com/Falli007/Insurance-Data-Engineer-RestAPI-Prpject)
-API-driven ingestion and data engineering workflow.
-
-`Python` `REST API` `Data Engineering`
-
-</td>
 </tr>
 </table>
 
 ---
 
-## `05 // HOW I THINK ABOUT SYSTEMS`
+## `06 // ENGINEERING PRINCIPLES`
 
 ```mermaid
 flowchart LR
@@ -191,9 +213,19 @@ flowchart LR
 >
 > I care about the complete system: data quality, architecture, detection or model logic, evaluation, deployment, observability and whether the solution improves a real decision.
 
+### What I optimise for
+
+| Principle | What it means in practice |
+|---|---|
+| **Clarity** | Simple architectures and readable SQL/code before clever abstractions |
+| **Data quality** | Tests, validation, lineage and explicit model grain |
+| **Reusability** | Modular models, macros, shared transformations and documented interfaces |
+| **Evaluation** | Measure outputs rather than relying on intuition |
+| **Production thinking** | Security, monitoring, cost awareness and maintainable workflows |
+
 ---
 
-## `06 // GITHUB SIGNAL`
+## `07 // GITHUB SIGNAL`
 
 <div align="center">
 
@@ -212,7 +244,7 @@ flowchart LR
 
 ---
 
-## `07 // CURRENT DIRECTION`
+## `08 // CURRENT DIRECTION`
 
 ```text
 2026
