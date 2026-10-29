@@ -1,0 +1,287 @@
+{
+ "Falli007/BBC-Subclassification-NLP": {
+  "add": 20057,
+  "del": 101,
+  "pushed": "2026-07-22T13:56:46Z"
+ },
+ "Falli007/BBC_NLP": {
+  "add": 147546,
+  "del": 0,
+  "pushed": "2025-12-25T11:17:16Z"
+ },
+ "Falli007/BerTopic": {
+  "add": 31558,
+  "del": 0,
+  "pushed": "2025-07-15T17:23:08Z"
+ },
+ "Falli007/Brain_Tumour_Prediction": {
+  "add": 2219,
+  "del": 0,
+  "pushed": "2026-08-11T07:03:51Z"
+ },
+ "Falli007/Building-Agents": {
+  "add": 3227,
+  "del": 8,
+  "pushed": "2026-07-22T13:56:34Z"
+ },
+ "Falli007/CHEST_APP": {
+  "add": 159,
+  "del": 0,
+  "pushed": "2025-08-20T22:55:40Z"
+ },
+ "Falli007/CreditCardFraudDetection": {
+  "add": 2692,
+  "del": 0,
+  "pushed": "2025-02-01T23:53:06Z"
+ },
+ "Falli007/CryptoCurrencyPrediction": {
+  "add": 4,
+  "del": 3,
+  "pushed": "2025-07-25T21:58:44Z"
+ },
+ "Falli007/Databricks-JDBC-connecting-to-azure-sql": {
+  "add": 251,
+  "del": 0,
+  "pushed": "2026-01-07T12:38:09Z"
+ },
+ "Falli007/DatabricksAzureEngnr": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2026-01-19T23:06:30Z"
+ },
+ "Falli007/FIFATCHATBOTPROJECT": {
+  "add": 17698,
+  "del": 16772,
+  "pushed": "2023-09-29T20:47:40Z"
+ },
+ "Falli007/Falli007": {
+  "add": 906,
+  "del": 97,
+  "pushed": "2026-10-29T19:28:23Z"
+ },
+ "Falli007/Forecasting-TimeSeries-Univariates": {
+  "add": 16238,
+  "del": 4003,
+  "pushed": "2025-05-06T01:18:54Z"
+ },
+ "Falli007/GenAI-Insurance": {
+  "add": 783,
+  "del": 0,
+  "pushed": "2025-10-25T15:11:47Z"
+ },
+ "Falli007/GenAI-Project-ResearchRAGCHAT": {
+  "add": 493,
+  "del": 0,
+  "pushed": "2025-10-22T21:54:53Z"
+ },
+ "Falli007/GenAI_ads_summary": {
+  "add": 1748,
+  "del": 0,
+  "pushed": "2026-01-13T21:26:50Z"
+ },
+ "Falli007/Generative-Model-Projects": {
+  "add": 16853,
+  "del": 12107,
+  "pushed": "2025-06-18T22:19:28Z"
+ },
+ "Falli007/Graph-Neural-Networks-": {
+  "add": 726,
+  "del": 0,
+  "pushed": "2025-06-20T11:27:49Z"
+ },
+ "Falli007/Heart-Attack": {
+  "add": 16769,
+  "del": 0,
+  "pushed": "2023-09-29T20:42:11Z"
+ },
+ "Falli007/Insurance-Data-Engineer-RestAPI-Prpject": {
+  "add": 3540,
+  "del": 0,
+  "pushed": "2026-06-01T17:13:49Z"
+ },
+ "Falli007/LangChain-PDF-Chat": {
+  "add": 735,
+  "del": 0,
+  "pushed": "2025-10-20T19:56:48Z"
+ },
+ "Falli007/Movie-Recommendation": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2025-07-06T15:10:02Z"
+ },
+ "Falli007/My-computer-Vision-Projects": {
+  "add": 2760,
+  "del": 0,
+  "pushed": "2025-06-11T22:05:54Z"
+ },
+ "Falli007/NaturalLanguageProcessing": {
+  "add": 5648,
+  "del": 0,
+  "pushed": "2025-07-10T20:20:17Z"
+ },
+ "Falli007/Oncobot": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2025-06-23T17:38:34Z"
+ },
+ "Falli007/RAG-using-GPT4": {
+  "add": 1283,
+  "del": 0,
+  "pushed": "2025-10-05T16:48:06Z"
+ },
+ "Falli007/RAGModel-Evaluation": {
+  "add": 2966,
+  "del": 1656,
+  "pushed": "2026-01-11T14:44:30Z"
+ },
+ "Falli007/Recommendation_system": {
+  "add": 4266,
+  "del": 0,
+  "pushed": "2025-06-18T13:13:04Z"
+ },
+ "Falli007/Reinforcement-Learning": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2025-06-12T11:04:17Z"
+ },
+ "Falli007/Retail-Data-Engnr-ADLS-ADF-Datasbricks-and-power-BI-": {
+  "add": 2477,
+  "del": 0,
+  "pushed": "2026-06-01T15:18:50Z"
+ },
+ "Falli007/Risk-Advanced-Modelling": {
+  "add": 10244,
+  "del": 152,
+  "pushed": "2026-10-09T18:24:45Z"
+ },
+ "Falli007/SentimentAnalysis": {
+  "add": 11190,
+  "del": 0,
+  "pushed": "2025-02-03T01:01:42Z"
+ },
+ "Falli007/TimeSeriesForecasting": {
+  "add": 21080,
+  "del": 1117,
+  "pushed": "2026-07-22T13:58:49Z"
+ },
+ "Falli007/WHO-RAG-Recommendation": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2026-07-22T13:56:09Z"
+ },
+ "Falli007/bbc-news-nlp": {
+  "add": 52099,
+  "del": 38925,
+  "pushed": "2025-07-09T15:10:02Z"
+ },
+ "Falli007/biotech-nlp-pipeline-": {
+  "add": 16626,
+  "del": 0,
+  "pushed": "2026-06-27T22:51:11Z"
+ },
+ "Falli007/brain-mri-tumor-detection": {
+  "add": 3381,
+  "del": 3,
+  "pushed": "2025-08-25T21:49:08Z"
+ },
+ "Falli007/breast_cancer_django": {
+  "add": 758,
+  "del": 0,
+  "pushed": "2026-10-18T15:56:16Z"
+ },
+ "Falli007/connecting_dbt_to_snowflakes": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2026-08-10T22:34:58Z"
+ },
+ "Falli007/consumer-complaints-ml": {
+  "add": 9154,
+  "del": 1261,
+  "pushed": "2026-08-06T23:20:54Z"
+ },
+ "Falli007/creditcard_fraud": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2025-07-02T19:01:34Z"
+ },
+ "Falli007/databricks_files": {
+  "add": 2549,
+  "del": 0,
+  "pushed": "2026-10-25T20:59:00Z"
+ },
+ "Falli007/dbt-bigquery-yelp-pipeline": {
+  "add": 218,
+  "del": 0,
+  "pushed": "2026-09-15T22:06:12Z"
+ },
+ "Falli007/deviation-investigation-agent-": {
+  "add": 8888,
+  "del": 360,
+  "pushed": "2026-09-03T20:03:29Z"
+ },
+ "Falli007/ecommerce-using-microsoft-fabric": {
+  "add": 2,
+  "del": 1,
+  "pushed": "2026-06-01T16:17:05Z"
+ },
+ "Falli007/emotional_recognition_AWS_deployment_EC2": {
+  "add": 814,
+  "del": 0,
+  "pushed": "2026-10-18T15:56:20Z"
+ },
+ "Falli007/eval-harness": {
+  "add": 4597,
+  "del": 381,
+  "pushed": "2026-07-24T17:40:03Z"
+ },
+ "Falli007/fintech-ledger": {
+  "add": 1949,
+  "del": 0,
+  "pushed": "2026-07-24T23:38:11Z"
+ },
+ "Falli007/fred-data-platform": {
+  "add": 1077,
+  "del": 132,
+  "pushed": "2026-08-12T01:39:02Z"
+ },
+ "Falli007/genai-pdf-rag-chatbot": {
+  "add": 1193,
+  "del": 0,
+  "pushed": "2026-08-11T06:57:20Z"
+ },
+ "Falli007/healthtech-care": {
+  "add": 1840,
+  "del": 0,
+  "pushed": "2026-07-24T23:38:24Z"
+ },
+ "Falli007/medbot": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2026-07-22T13:56:23Z"
+ },
+ "Falli007/mydatabricks-and-pyspark-codes": {
+  "add": 0,
+  "del": 0,
+  "pushed": "2026-01-07T12:54:08Z"
+ },
+ "Falli007/mypersonalwebsite": {
+  "add": 336923,
+  "del": 666575,
+  "pushed": "2026-07-22T12:19:04Z"
+ },
+ "Falli007/mysqlnotes": {
+  "add": 551,
+  "del": 0,
+  "pushed": "2025-05-11T11:47:16Z"
+ },
+ "Falli007/simple_RAG": {
+  "add": 399,
+  "del": 0,
+  "pushed": "2026-01-29T08:26:15Z"
+ },
+ "Falli007/time-series-foundation-models-finance": {
+  "add": 2634,
+  "del": 8,
+  "pushed": "2026-03-13T12:05:57Z"
+ }
+}
