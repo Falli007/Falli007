@@ -22,7 +22,7 @@ from dateutil.relativedelta import relativedelta
 # --------------------------------------------------------------------------- #
 USERNAME = os.environ.get("GH_USER", "Falli007")
 HEADER = "fredrick@falli007"
-UPTIME_SINCE = date(2018, 1, 1)  # TODO: birthday, or the date you started coding
+UPTIME_SINCE = date(2020, 10, 29)  # start of career; uptime counts up from here
 
 SECTIONS: list[list[tuple[str, str]]] = [
     [
