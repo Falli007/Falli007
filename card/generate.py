@@ -28,7 +28,6 @@ SECTIONS: list[list[tuple[str, str]]] = [
     [
         ("OS", "macOS, Linux, Windows"),
         ("Uptime", "{uptime}"),
-        ("Host", "Fa Grace Ltd"),
         ("Kernel", "Data Scientist, AI & Data Engineer"),
         ("IDE", "VS Code, Jupyter, Databricks"),
     ],
