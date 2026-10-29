@@ -49,7 +49,8 @@ CONTACT: list[tuple[str, str]] = [
     ("GitHub", "Falli007"),
 ]
 HERE = Path(__file__).resolve().parent
-ASCII_FILE = HERE / "ascii.txt"
+PORTRAIT_FILE = HERE / "portrait.json"  # coloured portrait from portrait.py; preferred if present
+ASCII_FILE = HERE / "ascii.txt"  # plain fallback from ascii.py
 CACHE_FILE = HERE / "cache" / "loc.json"
 OUT_DIR = HERE.parent / "assets"
 # --------------------------------------------------------------------------- #
@@ -225,18 +226,46 @@ def build_lines(s: Stats) -> list[str]:
     return lines
 
 
-def render(s: Stats, theme: dict[str, str]) -> str:
-    art = ASCII_FILE.read_text().rstrip("\n").splitlines() if ASCII_FILE.exists() else []
-    info = build_lines(s)
-    art_cols = max((len(l) for l in art), default=0)
-    info_x = 15 + (art_cols + 3) * CHAR_WIDTH if art else 15
-    width = int(info_x + (ROW_WIDTH + 2) * CHAR_WIDTH + 20)  # slack for wider fallback fonts
-    height = 30 + max(len(art), len(info)) * LINE_HEIGHT + 10
+def portrait_svg(rows: list[list[list[str]]], line_h: float, x0: float, y0: float) -> str:
+    """One <text> per row; each colour run is a tspan so the photo's colours come through."""
+    out = []
+    for i, runs in enumerate(rows):
+        spans = "".join(
+            escape(txt) if not col else f'<tspan fill="{col}">{escape(txt)}</tspan>' for txt, col in runs)
+        out.append(f'<text x="{x0:.1f}" y="{y0 + i * line_h:.1f}">{spans}</text>')
+    return "\n".join(out)
 
-    art_svg = "\n".join(
-        f'<tspan x="15" y="{30 + i * LINE_HEIGHT}">{escape(l)}</tspan>' for i, l in enumerate(art))
+
+def render(s: Stats, theme: dict[str, str]) -> str:
+    info = build_lines(s)
+    info_h = len(info) * LINE_HEIGHT
+    pad = 15
+
+    if PORTRAIT_FILE.exists():
+        rows = json.loads(PORTRAIT_FILE.read_text())
+        cols = max(sum(len(t) for t, _ in r) for r in rows)
+        line_h = info_h / len(rows)  # scale the portrait to the height of the info column
+        art_font = line_h * 0.83  # keeps a monospace glyph about half as wide as it is tall
+        art_w = cols * art_font * 0.62 + 2 * pad
+        art = (f'<rect x="{pad}" y="{pad}" width="{art_w:.0f}" height="{info_h + 2 * pad - 10:.0f}" '
+               f'rx="10" fill="#0d1117"/>\n'
+               f'<g xml:space="preserve" font-size="{art_font:.2f}px">\n'
+               f'{portrait_svg(rows, line_h, 2 * pad, pad + line_h + 4)}\n</g>')
+        info_x = art_w + 3 * pad
+    elif ASCII_FILE.exists():
+        lines = ASCII_FILE.read_text().rstrip("\n").splitlines()
+        art = (f'<text xml:space="preserve" fill="{theme["text"]}">' + "".join(
+            f'<tspan x="{pad}" y="{30 + i * LINE_HEIGHT}">{escape(l)}</tspan>' for i, l in enumerate(lines))
+            + "</text>")
+        info_x = pad + (max(map(len, lines)) + 3) * CHAR_WIDTH
+    else:
+        art, info_x = "", pad
+
+    width = int(info_x + (ROW_WIDTH + 2) * CHAR_WIDTH + 20)  # slack for wider fallback fonts
+    height = 30 + info_h + 10
     info_svg = "\n".join(
         f'<tspan x="{info_x:.0f}" y="{30 + i * LINE_HEIGHT}">{l}</tspan>' for i, l in enumerate(info))
+    art_svg = art
 
     return f"""<?xml version="1.0" encoding="utf-8"?>
 <svg xmlns="http://www.w3.org/2000/svg" font-family="ConsolasFallback,Consolas,'DejaVu Sans Mono',monospace" width="{width}px" height="{height}px" font-size="{FONT_SIZE}px">
@@ -246,9 +275,7 @@ def render(s: Stats, theme: dict[str, str]) -> str:
 .add {{fill: {theme['add']};}} .sub {{fill: {theme['sub']};}} .text, text, tspan {{white-space: pre;}}
 </style>
 <rect width="{width}px" height="{height}px" fill="{theme['bg']}" rx="15"/>
-<text xml:space="preserve" class="ascii" fill="{theme['text']}">
 {art_svg}
-</text>
 <text xml:space="preserve" fill="{theme['text']}">
 {info_svg}
 </text>

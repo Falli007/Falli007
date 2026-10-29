@@ -5,7 +5,7 @@ on:
     - cron: "17 4 * * *"   # daily, 04:17 UTC
   push:
     branches: [main]
-    paths: [card/generate.py, card/ascii.txt]
+    paths: [card/generate.py, card/portrait.json, card/ascii.txt]
   workflow_dispatch:
 
 permissions:
