@@ -1,6 +1,9 @@
 <div align="center">
 
-<img src="./assets/profile-hero.svg" width="100%" alt="Data Science, AI Engineering and Data Engineering portfolio" />
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="./assets/card-dark.svg">
+  <img src="./assets/card-light.svg" width="100%" alt="Fredrick's profile card: ASCII portrait with live GitHub stats" />
+</picture>
 
 <br/>
 
@@ -16,21 +19,6 @@
 ---
 
 ## `01 // PROFILE`
-
-```text
-fred@data-platform:~$ whoami
-
-ROLE          Data Scientist • AI Engineer • Data Engineer
-SPECIALISM    Applied ML • Risk Analytics • Generative AI • Data Platforms
-LANGUAGES     Python • SQL • SPL
-ANALYTICS     Splunk • Power BI • DAX
-DATA          Databricks • Snowflake • dbt • PySpark • Delta Lake
-CLOUD         AWS • S3 • Azure • Azure Blob Storage
-AI / ML       Machine Learning • NLP • RAG • LLMs • Model Evaluation
-ENGINEERING   Git • GitHub • Docker • REST APIs • CI/CD • VS Code
-WORKFLOW      Ingest → Transform → Model → Evaluate → Deploy → Monitor
-MISSION       Build systems that create measurable value in production.
-```
 
 I work across the full data lifecycle, from raw event and platform data through engineering, modelling, evaluation and production monitoring. My strongest work sits where **data science, fraud/risk analytics, AI engineering and modern data engineering** meet.
 
